@@ -1,0 +1,408 @@
+/*
+Author: Maxwell Cofie
+Purpose:
+*/
+@import url("https://fonts.googleapis.com/css2?family=Jost:wght@300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap");
+* {
+  font-family: "Oxygen", sans-serif;
+  line-height: 2.1rem;
+}
+
+p {
+  font-weight: lighter;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Jost", sans-serif;
+  font-weight: bolder;
+}
+
+.btn {
+  border-radius: 7px;
+}
+
+.primary-color-light {
+  color: #dcf4ff;
+}
+
+.secondaryColor {
+  color: #ffae47;
+}
+
+.navbar-nav .nav-link.active, .nav-link {
+  color: #FFF;
+}
+
+.header {
+  width: 100%;
+  float: left;
+  height: inherit;
+  background-color: #0b6699;
+  border-bottom: 1px solid #f7f7f7;
+}
+.header .title-text {
+  padding: 150px 0;
+}
+.header img {
+  border-radius: 45% 0 0 45%;
+}
+
+.tint {
+  width: 100%;
+  background-image: url("../imgs/backdrop.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.backdrop {
+  width: 100%;
+  background-color: rgba(22, 16, 14, 0.43);
+}
+
+.py-10 {
+  padding: 13rem 0;
+}
+
+.header-image-container {
+  width: 750px;
+  height: 650px;
+  border-radius: 50% 0 0 50%;
+  float: right;
+  border: 7px solid #ffae47;
+  background-image: url("../imgs/african-american-therapist-doctor-listening-patient-lungs-using-stethoscope-discussing-medical-expertise-with-therapist-sick-young-woman-resting-bed-recovering-after-surgery-hospital-ward.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+.description-wrapper {
+  width: 100%;
+  height: inherit;
+  float: left;
+  padding: 20px;
+  background-color: #dcf4ff;
+  border-radius: 0 0 200px 0;
+}
+
+.services {
+  background-color: #dcf4ff;
+  padding: 100px 0;
+}
+
+.service-card {
+  width: 100%;
+  height: 450px;
+  background-color: rgba(22, 16, 14, 0.43);
+  float: left;
+  border-radius: 0 0 40% 0;
+  border-right: 7px solid #ffae47;
+}
+
+.service-card-tint {
+  width: 100%;
+  height: 450px;
+  border-radius: 0 0 40% 0;
+  background-image: url("../imgs/lab.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+.about-us-image-wrapper {
+  width: 500px;
+  height: 500px;
+  float: right;
+  background-image: url("../imgs/portrait-african-american-practitioner-doctor-working-hospital-office.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  border: 7px solid #ffae47;
+  background-size: cover;
+  border-radius: 50% 50% 0 0;
+}
+
+.contact_location {
+  padding: 100px 0;
+}
+
+header, section, footer {
+  width: 100%;
+  float: left;
+}
+
+footer {
+  padding: 40px 0;
+  background-color: #232323;
+  color: #909090;
+}
+
+/* Extra small devices (phones, 600px and down) */
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 767px) {
+  .header-image-container {
+    width: 430px;
+    height: 430px;
+    border: 5px solid #ffae47;
+  }
+
+  .header {
+    width: 100%;
+    float: left;
+    height: inherit;
+    background-color: #0b6699;
+    border-bottom: 1px solid #f7f7f7;
+  }
+  .header .title-text {
+    padding: 30px 0;
+  }
+  .header img {
+    border-radius: 45% 0 0 45%;
+  }
+  .header h1 {
+    font-size: 1.5rem;
+  }
+  .header h4 {
+    font-size: 0.9rem;
+  }
+
+  .description-wrapper p {
+    font-size: 1rem !important;
+  }
+
+  .about-us-image-wrapper {
+    width: 420px;
+    height: 420px;
+    border: 7px solid #ffae47;
+  }
+
+  .services {
+    padding: 50px 0;
+  }
+  .services p {
+    font-size: 1rem !important;
+  }
+
+  .service-card-tint {
+    width: 100%;
+    height: 350px;
+    border-radius: 0 0 40% 0;
+  }
+
+  .service-card {
+    width: 100%;
+    height: 350px;
+  }
+  .service-card h3 {
+    font-size: 1.5rem;
+  }
+
+  .nav-link {
+    font-size: 0.8rem;
+  }
+
+  .navbar h3 {
+    font-size: 1rem;
+  }
+
+  .backdrop {
+    padding: 10rem 0 !important;
+  }
+  .backdrop h1 {
+    font-size: 1.9rem;
+  }
+}
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .header-image-container {
+    width: 530px;
+    height: 430px;
+    border: 5px solid #ffae47;
+  }
+
+  .header {
+    width: 100%;
+    float: left;
+    height: inherit;
+    background-color: #0b6699;
+    border-bottom: 1px solid #f7f7f7;
+  }
+  .header .title-text {
+    padding: 30px 0;
+  }
+  .header img {
+    border-radius: 45% 0 0 45%;
+  }
+  .header h1 {
+    font-size: 1.5rem;
+  }
+  .header h4 {
+    font-size: 0.9rem;
+  }
+
+  .description-wrapper p {
+    font-size: 1rem !important;
+  }
+
+  .about-us-image-wrapper {
+    width: 100%;
+    height: 520px;
+    border: 7px solid #ffae47;
+  }
+
+  .services {
+    padding: 50px 0;
+  }
+  .services p {
+    font-size: 1rem !important;
+  }
+
+  .service-card-tint {
+    width: 100%;
+    height: 350px;
+    border-radius: 0 0 40% 0;
+  }
+
+  .service-card {
+    width: 100%;
+    height: 350px;
+  }
+  .service-card h3 {
+    font-size: 1.5rem;
+  }
+
+  .nav-link {
+    font-size: 0.8rem;
+  }
+
+  .navbar h3 {
+    font-size: 1rem;
+  }
+
+  .backdrop {
+    padding: 10rem 0 !important;
+  }
+  .backdrop h1 {
+    font-size: 1.9rem;
+  }
+}
+/* Large devices (laptops/desktops, 992px and up) */
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .backdrop {
+    width: 100%;
+    background-color: rgba(22, 16, 14, 0.43);
+  }
+
+  .py-10 {
+    padding: 13rem 0;
+  }
+
+  .header-image-container {
+    width: 100%;
+    height: 650px;
+    border-radius: 50% 0 0 50%;
+    float: right;
+    border: 7px solid #ffae47;
+    background-image: url("../imgs/african-american-therapist-doctor-listening-patient-lungs-using-stethoscope-discussing-medical-expertise-with-therapist-sick-young-woman-resting-bed-recovering-after-surgery-hospital-ward.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+  }
+
+  .description-wrapper {
+    width: 100%;
+    height: inherit;
+    float: left;
+    padding: 20px;
+    background-color: #dcf4ff;
+    border-radius: 0 0 200px 0;
+  }
+  .description-wrapper p {
+    font-size: 1.3rem !important;
+  }
+
+  .services {
+    background-color: #dcf4ff;
+    padding: 100px 0;
+  }
+  .services p {
+    font-size: 1.3rem !important;
+  }
+
+  .service-card {
+    width: 100%;
+    height: 450px;
+    background-color: rgba(22, 16, 14, 0.43);
+    float: left;
+    border-radius: 0 0 40% 0;
+    border-right: 7px solid #ffae47;
+  }
+  .service-card h3 {
+    font-size: 1.8rem;
+  }
+
+  .service-card-tint {
+    width: 100%;
+    height: 450px;
+    border-radius: 0 0 40% 0;
+    background-image: url("../imgs/lab.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+  }
+
+  .about-us-image-wrapper {
+    width: 500px;
+    height: 500px;
+    float: right;
+    background-image: url("../imgs/portrait-african-american-practitioner-doctor-working-hospital-office.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    border: 7px solid #ffae47;
+    background-size: cover;
+    border-radius: 50% 50% 0 0;
+  }
+
+  .nav-link {
+    font-size: 1rem;
+  }
+
+  .navbar h3 {
+    font-size: 1.3rem;
+  }
+
+  .header {
+    width: 100%;
+    float: left;
+    height: inherit;
+    background-color: #0b6699;
+    border-bottom: 1px solid #f7f7f7;
+  }
+  .header .title-text {
+    padding: 30px 0;
+  }
+  .header img {
+    border-radius: 45% 0 0 45%;
+  }
+  .header h1 {
+    font-size: 2.5rem;
+    margin-top: 2.5rem;
+  }
+  .header p {
+    font-size: 1.3rem !important;
+  }
+  .header h4 {
+    font-size: 1.3rem;
+  }
+
+  .backdrop {
+    padding: 13rem 0 !important;
+  }
+  .backdrop h1 {
+    font-size: 3rem;
+  }
+}
+
+/*# sourceMappingURL=app.css.map */

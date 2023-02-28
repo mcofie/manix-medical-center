@@ -37,6 +37,39 @@ h1, h2, h3, h4, h5, h6 {
   color: #FFF;
 }
 
+.our-services {
+  background-color: #ffae47;
+  padding: 30px 0;
+}
+
+.wrapper {
+  position: relative;
+  overflow: hidden;
+  height: 30px;
+  width: 100%;
+}
+.wrapper h4 {
+  font-size: 1.5em;
+  position: absolute;
+  margin: 0;
+  line-height: 25px;
+  white-space: nowrap;
+  -webkit-animation: marquee 50s linear infinite;
+  animation: marquee 50s linear infinite;
+}
+
+.fa-1x {
+  font-size: 0.5em;
+}
+
+@keyframes marquee {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
 .header {
   width: 100%;
   float: left;
@@ -45,7 +78,7 @@ h1, h2, h3, h4, h5, h6 {
   border-bottom: 1px solid #f7f7f7;
 }
 .header .title-text {
-  padding: 150px 0;
+  padding: 50px 0;
 }
 .header img {
   border-radius: 45% 0 0 45%;
@@ -142,6 +175,19 @@ footer {
   color: #4f4f4f;
 }
 
+@media only screen and (max-width: 375px) {
+  .nav-link {
+    font-size: 0.9rem;
+  }
+
+  .about-us-image-wrapper {
+    height: 400px !important;
+  }
+
+  .header .title-text {
+    padding: 50px 0;
+  }
+}
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
   .header .title-text {
@@ -166,6 +212,7 @@ footer {
     font-size: 1.1rem !important;
   }
 }
+/* Small devices (portrait tablets and large phones, 600px and up) */
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
   .header-image-container {
@@ -188,7 +235,7 @@ footer {
     border-radius: 45% 0 0 45%;
   }
   .header h1 {
-    font-size: 1.5rem;
+    font-size: 2.2rem;
   }
   .header h4 {
     font-size: 0.9rem;
@@ -241,6 +288,15 @@ footer {
   }
 }
 /* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (max-width: 989px) {
+  .header {
+    width: 100%;
+    float: left;
+    height: inherit;
+    background-color: #0b6699;
+    border-bottom: 1px solid #f7f7f7;
+  }
+}
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
   .backdrop {
@@ -340,11 +396,11 @@ footer {
     border-radius: 45% 0 0 45%;
   }
   .header h1 {
-    font-size: 2.5rem;
+    font-size: 3.5rem;
     margin-top: 2.5rem;
   }
   .header p {
-    font-size: 1.1rem !important;
+    font-size: 1.2rem !important;
   }
   .header h4 {
     font-size: 1.1rem;
